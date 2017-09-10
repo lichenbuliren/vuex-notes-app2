@@ -28,7 +28,6 @@
 </style>
 
 <script>
-import { mapActions, mapState } from 'vuex';
 import Toolbar from './components/Toolbar';
 import NoteList from './components/NoteList';
 import Editor from './components/Editor';

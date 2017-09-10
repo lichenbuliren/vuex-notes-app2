@@ -34,7 +34,7 @@
       <div class="list-group">
         <div
           v-for="(note, index) in searchNotes" :key="index"
-          class="list-group-item" href="javascript:;"
+          class="list-group-item"
           :class="{active: activeNote === note}"
           @click="updateActiveNote(note)">
           <h4 class="list-group-item-heading">
